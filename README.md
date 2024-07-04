@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ### Training
 
-- Download ImageNet pretrained [vgg16_bn](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth), or you can download [CroHD pretrained VGG backbone](https://pan.baidu.com/s/151HiN_b8mfy8cccC0lYPew?pwd=uosg) which can achive better results - and put them in ```pretrained``` folder. Or you can define your pre-trained model path in [models/backbones/vgg.py](models/backbones/vgg.py)
+- Download ImageNet pretrained [vgg16_bn](https://download.pytorch.org/models/vgg16_bn-6c64b313.pth), or you can download [CroHD pretrained VGG backbone](https://pan.baidu.com/s/151HiN_b8mfy8cccC0lYPew?pwd=uosg) which can achive better results - and put them in ```pretrained``` folder. Or you can define your pre-trained model path in [models/backbones/vgg.py](PET/models/backbones/vgg.py)
 - CroHD dataset can be downloaded from [here](https://motchallenge.net/data/Head_Tracking_21/)
 - To train PET on your dataset, run
   
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ### Evaluation
 
-- Modify [eval.sh](eval.sh)
+- Modify [eval.sh](PET/eval.sh)
   - change ```--resume``` to your local model path
 - Run
 
