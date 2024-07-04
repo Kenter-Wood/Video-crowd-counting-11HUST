@@ -78,7 +78,7 @@ Notifications: The metric NMAE is used to better evaluate the performance of the
 | ShanghaiTech PartA       |  [SHA_model.pth](https://drive.google.com/file/d/1QwV8hrEDs1LQ4h1TH4KSL8tB51AImNMT/view?usp=drive_link)   | 7.23 | 8.36 | 33.49 |
 | ShanghaiTech PartB       |  [SHB_model.pth](https://drive.google.com/file/d/10HK42xC6fmOK-5lQfu-pTn6oAHYeRUhv/view?usp=sharing)   | 4.70 | 5.65 | 22.40 |
 | ImageNet+WuhanMetro         |  [ImageNet+WM.pth](https://pan.baidu.com/s/11ThBXqnd3RR4iV1FpJyZnw?pwd=a524)   | 4.78 | 6.06 | 21.21 |
-| CroHD+WuhanMetro      |  [Cro+WM.pth](https://pan.baidu.com/s/115sgCqYeDqZVCHYhu4GTzw?pwd=gizv)   | 3.55 | 4.43 | 17.44 |
+| CroHD+WuhanMetro      |  [Cro+WM.pth](https://pan.baidu.com/s/115sgCqYeDqZVCHYhu4GTzw?pwd=gizv)   | **3.55** | **4.43** | **17.44** |
 
 ## Usage of PeopleFlows on the WuhanMetro Dataset
 
@@ -144,9 +144,11 @@ The results of the PET model and the PeopleFlows model tested on the WuhanMetro 
 | PET on SHA | 7.23 | 33.49 | 13.55 |
 | PET on SHB | 4.70 | 22.40 | 6.77 |
 | PET on ImageNet+WM | 4.78 | 21.21 | 6.24 |
-| PET on CroHD+WM | 3.55 | 17.44 | 5.00 |
-| PeopleFlows | 2.97 | 13.33 | 2.67 |
+| PET on CroHD+WM | <u>3.55</u> | <u>17.44</u> | <u>5.00</u> |
+| PeopleFlows | **2.97** | **13.33** | **2.67** |
 
 ## Statement
 
-The code in this repository is only used for academic research and personal practice. If you find this work or code useful for your research, please cite the original papers and repositories of PET, FRVCC and PeopleFlows. Thank you for your attention.
+- Some parts of the code in the FRVCC make use of the code in the **PWCNet** repository, which is [here](https://github.com/sniklaus/pytorch-pwc). **The PWCNet is used to generate the optical flow between frames in the FRVCC model.**
+
+- The code in this repository is only used for academic research and personal practice. If you find this work or code useful for your research, please cite the original papers and repositories of PET, FRVCC and PeopleFlows. Thank you for your attention.
