@@ -10,7 +10,7 @@ The original repository of PET is [here](https://github.com/cxliu0/PET), and the
     <img src="cover.png" width="500"/>
 </p>
 
-The WuhanMetro dataset is a dataset of pedestrian counting in the Wuhan Metro. The dataset includes **frames cut from 6 videos, 1445 frames in total, both 5/0.5 fps**, and the corresponding ground truth of the location of pedestrians in each frame. The dataset is used to fine-tune the model of PET, train the PeopleFlows model and evaluate the performance of PET and PeopleFlows.
+The WuhanMetro dataset is a dataset of pedestrian counting in the Wuhan Metro. The dataset includes **frames cut from 6 videos, 2145 frames in total, both 5/0.5 fps**, and the corresponding ground truth of the location of pedestrians in each frame. The dataset is used to fine-tune the model of PET, train the PeopleFlows model and evaluate the performance of PET and PeopleFlows.
 
 The characteristics of the frames are diverse, including scenes of **dense/sparse, clear/blurry**, etc. They guarantee the robustness of the model.
 
