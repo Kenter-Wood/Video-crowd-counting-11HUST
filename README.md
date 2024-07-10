@@ -119,7 +119,6 @@ python test.py
 
 ```
 python plot.py
-
 ``` 
 This will plot the flows of each direction along with the density map.
 
@@ -130,8 +129,7 @@ The pretrained model is [here](https://pan.baidu.com/s/18m7wMFEeXeNg--gj8JPgcA?p
 ## Results
 
 For more accurate evaluation on time-space coherence performence on WuhanMetro, the VoNE metric is used to evaluate the performance of the models. The lower the VoNE, the better the performance. VoNE is calculated by the following formula:
-$$
-\begin{gathered}
+$$\begin{gathered}
 Err_i=\frac{z_i-\hat{z_i}}{GT_i} \\
 \begin{aligned}\overline{Err}=\frac{1}{N}\sum_{i=1}^{N}Err_i\end{aligned} \\
 \begin{aligned}VoNE=\frac{1}{N}\sum_{i=1}^{N}(Err_i-\overline{Err})^2\end{aligned} 
