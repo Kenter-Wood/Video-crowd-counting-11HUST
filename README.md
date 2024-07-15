@@ -71,6 +71,7 @@ torchvision==0.13.1
 ```
 
 - Models:
+
 Notifications: The metric NMAE is used to better evaluate the performance of the model. The lower the NMAE, the better the performance.
 
 | Dataset used to train the model    | Model Link | MAE | MSE | NMAE(*1e-2) |
