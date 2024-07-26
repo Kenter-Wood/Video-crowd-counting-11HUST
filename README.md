@@ -2,7 +2,7 @@
 
 This is the repository of the "Consistent pedestrian counting in time and space" project of the 11th team. This repository contains 4 parts of our work: the WuhanMetro dataset, the PET(Point-Query Quadtree) method for single-frame crowd counting, the FRVCC(Frame-Recurrent Video Crowd Counting) method for video crowd counting(to be explored later), and the PeopleFlows method for video crowd counting.
 
-The original repository of PET is [here](https://github.com/cxliu0/PET), and the original repository of PeopleFlows is [here](https://github.com/weizheliu/People-Flows). Because of the absence of the official code of FRVCC, we will provide the code of FRVCC coded by ourselves according to [the paper of FRVCC](https://ieeexplore.ieee.org/document/10057072), which could'nt perform as requested. Additional work on FRVCC is welcomed.
+The original repository of PET is [here](https://github.com/cxliu0/PET), and the original repository of PeopleFlows is [here](https://github.com/weizheliu/People-Flows). Because of the absence of the official code of FRVCC, we will provide the code of FRVCC coded by ourselves according to [the paper of FRVCC](https://ieeexplore.ieee.org/document/10057072), which could not perform as requested. Additional work on FRVCC is welcomed.
 
 ## Introduction of WuhanMetro Dataset
 
